@@ -16,5 +16,5 @@ CHIP DMux {
 
     PARTS:
     Mux(a=in, b=false, sel=sel, out=a);
-    Mux(a=false, b=in, sel=sel, out=b);
+    Mux(a=false, b=in, sel=sel, out=a);
 }
